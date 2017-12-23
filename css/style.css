@@ -1,0 +1,254 @@
+body{
+
+}
+
+.main-block {
+	
+-moz-transform: scale(0.9) rotate(27deg) translate(37px, 0px) skew(-18deg, -14deg);
+-webkit-transform: scale(0.9) rotate(27deg) translate(37px, 0px) skew(-18deg, -14deg);
+-o-transform: scale(0.9) rotate(27deg) translate(37px, 0px) skew(-18deg, -14deg);
+-ms-transform: scale(0.9) rotate(27deg) translate(37px, 0px) skew(-18deg, -14deg);
+transform: scale(0.9) rotate(27deg) translate(37px, 0px) skew(-18deg, -14deg);
+	width: 720px;
+	height: 720px;
+	background-image: url(../img/chess.png);
+	margin-left: 170px;
+
+}
+
+.chess {
+ background-color: #764B3C;
+  border-radius: 50%;
+  width: 90px;
+ height: 90px;
+box-shadow: inset 6px -6px 10px 2px;
+}
+
+
+.red {
+	background-color: #C55050;
+}
+
+.row1, .row3, .row5 {
+	float: right;
+	width: 100%;
+}
+
+.row2, .row4, .row6 {
+	float: left;
+	width: 100%;
+
+}
+
+
+.row1 .chess, .row3 .chess, .row5 .chess {
+	
+	float: right;
+	margin-left: 80px;
+}
+.row2 .chess, .row4 .chess, .row6 .chess {
+	
+	float: left;
+	margin-right: 80px;
+}
+.row1 {
+	margin-top: 18px;
+	margin-right: 20px;
+}
+
+.row2 {
+	margin-top: -5px;
+	margin-left: 20px;
+}
+.row3 {
+	margin-right: 20px;
+}
+
+.row4 {
+	margin-top: 157px;
+	margin-left: 20px;
+}
+
+.row5 {
+	margin-top: -5px;
+	margin-right: 20px;
+}
+.row6 {
+	margin-left: 20px;
+}
+/*.black1 {
+	top: 20px;
+	left: 105px;
+}
+
+.black2 {
+	top: 20px;
+	left: 272px;
+}
+
+.black3 {
+	top: 20px;
+	left: 441px;
+}
+
+.black4 {
+	top: 20px;
+	left: 610px;
+}
+
+.black5 {
+	top: 105px;
+	left: 20px;
+}
+
+.black6 {
+	top: 105px;
+	left: 188px;
+}
+
+.black7 {
+	top: 105px;
+	left: 356px;
+}
+
+.black8 {
+	top: 105px;
+	left: 524px;
+}
+
+.black9 {
+
+	top: 189px;
+	left: 105px;
+}
+
+.black10 {
+	top: 189px;
+	left: 272px;
+}
+
+.black11 {
+	top: 189px;
+	left: 441px;
+}
+
+.black12 {
+	top: 189px;
+	left: 610px;
+}
+
+
+.red1 {
+	top: 526px;
+	left: 105px;
+}
+
+.red2 {
+	top: 526px;
+	left: 272px;
+}
+
+.red3 {
+	top: 526px;
+	left: 441px;
+}
+
+.red4 {
+	top: 526px;
+	left: 610px;
+}
+
+.red5 {
+	top: 441px;
+	left: 20px;
+}
+
+.red6 {
+	top: 441px;
+	left: 188px;
+}
+
+.red7 {
+	top: 441px;
+	left: 356px;
+}
+
+.red8 {
+	top: 441px;
+	left: 524px;
+}
+
+.red9 {
+	top: 611px;
+	left: 20px;
+}
+
+.red10 {
+	top: 611px;
+	left: 188px;
+}
+
+.red11 {
+	top: 611px;
+	left: 356px;
+}
+
+.red12 {
+	top: 611px;
+	left: 524px;
+}*/
+
+
+
+
+
+
+
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
